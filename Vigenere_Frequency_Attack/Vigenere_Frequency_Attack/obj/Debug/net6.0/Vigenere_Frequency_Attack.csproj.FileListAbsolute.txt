@@ -1,0 +1,15 @@
+C:\Users\Donat\Desktop\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\bin\Debug\net6.0\Vigenere_Frequency_Attack.exe
+C:\Users\Donat\Desktop\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\bin\Debug\net6.0\Vigenere_Frequency_Attack.deps.json
+C:\Users\Donat\Desktop\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\bin\Debug\net6.0\Vigenere_Frequency_Attack.runtimeconfig.json
+C:\Users\Donat\Desktop\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\bin\Debug\net6.0\Vigenere_Frequency_Attack.dll
+C:\Users\Donat\Desktop\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\bin\Debug\net6.0\Vigenere_Frequency_Attack.pdb
+C:\Users\Donat\Desktop\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\obj\Debug\net6.0\Vigenere_Frequency_Attack.csproj.AssemblyReference.cache
+C:\Users\Donat\Desktop\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\obj\Debug\net6.0\Vigenere_Frequency_Attack.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Donat\Desktop\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\obj\Debug\net6.0\Vigenere_Frequency_Attack.AssemblyInfoInputs.cache
+C:\Users\Donat\Desktop\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\obj\Debug\net6.0\Vigenere_Frequency_Attack.AssemblyInfo.cs
+C:\Users\Donat\Desktop\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\obj\Debug\net6.0\Vigenere_Frequency_Attack.csproj.CoreCompileInputs.cache
+C:\Users\Donat\Desktop\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\obj\Debug\net6.0\Vigenere_Frequency_Attack.dll
+C:\Users\Donat\Desktop\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\obj\Debug\net6.0\refint\Vigenere_Frequency_Attack.dll
+C:\Users\Donat\Desktop\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\obj\Debug\net6.0\Vigenere_Frequency_Attack.pdb
+C:\Users\Donat\Desktop\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\obj\Debug\net6.0\Vigenere_Frequency_Attack.genruntimeconfig.cache
+C:\Users\Donat\Desktop\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\Vigenere_Frequency_Attack\obj\Debug\net6.0\ref\Vigenere_Frequency_Attack.dll

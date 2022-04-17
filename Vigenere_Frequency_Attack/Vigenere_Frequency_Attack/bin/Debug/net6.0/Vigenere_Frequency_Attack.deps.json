@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Vigenere_Frequency_Attack/1.0.0": {
+        "runtime": {
+          "Vigenere_Frequency_Attack.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Vigenere_Frequency_Attack/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
