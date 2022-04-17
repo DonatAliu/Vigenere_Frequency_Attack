@@ -114,6 +114,11 @@ namespace VigenereDecrypter
             return out_str;
 
         }
+        public static int MathMod(int a, int b)
+        {
+            int c = ((a % b) + b) % b;
+            return c;
+        }
       
 
     }
