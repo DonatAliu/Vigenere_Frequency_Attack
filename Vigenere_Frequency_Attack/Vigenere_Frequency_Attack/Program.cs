@@ -129,3 +129,42 @@ namespace VigenereDecrypter
 
     }
 }
+
+private static string decrypt(string text, string key)
+        {
+
+            Dictionary<string, int> alphabet = new Dictionary<string, int>()
+            {
+                 {"a", 0},{"ç", 3},{"ë", 6},{"h", 9},{"k", 12},{"n", 15},{"q", 18},{"t", 21},{"x", 24},
+                  {"b", 1 },{"d", 4 },{"f", 7},{"i", 10},{"l", 13},{"o", 16},{"r", 19},{"u", 22},{"y", 25},
+                  {"c", 2},{"e", 5},{"g", 8},{"j", 11},{"m", 14},{"p", 17},{"s", 20},{"v", 23},{"z", 26}
+            };
+            text = text.ToLower();
+            key = key.ToLower();
+            string out_string = "";
+            int start_key = 0;
+            int key_val;
+            int char_index;
+            int e_val;
+            int out_val;
+            for (int i = 0; i < text.Length; i++)
+            {
+                if (start_key == key.Length)
+                {
+                    start_key = 0;
+                }
+
+                key_val = alphabet[key[start_key].ToString()];
+
+                char_index = alphabet[text[i].ToString()];
+
+                e_val = ((char_index - key_val));
+                out_val = (e_val >= 0 ? e_val : (27 - (e_val * (-1))));
+
+                out_string += alphabet.First(x => x.Value == out_val).Key;
+
+                start_key += 1;
+
+            }
+            return out_string;
+        }
