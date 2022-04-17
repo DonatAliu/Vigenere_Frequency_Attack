@@ -33,7 +33,7 @@ namespace VigenereDecrypter
 
             string keyletters = findkeyLetters(key_length, ciphertext);
             Console.WriteLine("Celesi: " + keyletters);
-            //decrypting with the function we will make in the future 
+
             string decrypted = decrypt(ciphertext, keyletters);
             Console.WriteLine("Dekriptuar: " + decrypted);
         }
@@ -92,7 +92,6 @@ namespace VigenereDecrypter
                 for (int j = 0; j <= 26; j++)
                 {
                     double[] x = new double[] { 0.06853, 0.01062, 0.00417, 0.0024, 0.03186, 0.09675, 0.09705, 0.00892, 0.01386, 0.04658, 0.07444, 0.03502, 0.03508, 0.02547, 0.03733, 0.06227, 0.03673, 0.02958, 0.00905, 0.06883, 0.057, 0.08656, 0.03462, 0.01356, 0.00075, 0.00621, 0.00625 }; //frekuenca
-                    // use shiftRight function to shift 
                     var a_j = ShiftRight(x, j);
 
                     for (int k = 0; k <= 26; k++)
@@ -114,23 +113,22 @@ namespace VigenereDecrypter
             return out_str;
 
         }
+
         public static int MathMod(int a, int b)
         {
             int c = ((a % b) + b) % b;
             return c;
         }
-      public static IEnumerable<T> ShiftRight<T>(IList<T> values, int shift)
+
+        public static IEnumerable<T> ShiftRight<T>(IList<T> values, int shift)
         {
             for (int index = 0; index < values.Count; index++)
             {
                 yield return values[MathMod(index - shift, values.Count)];
             }
         }
-
-    }
-}
-
-private static string decrypt(string text, string key)
+        //method used to decrypt the ciphertext with the key that we find 
+        private static string decrypt(string text, string key)
         {
 
             Dictionary<string, int> alphabet = new Dictionary<string, int>()
@@ -168,3 +166,6 @@ private static string decrypt(string text, string key)
             }
             return out_string;
         }
+
+    }
+}
