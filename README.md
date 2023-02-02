@@ -4,7 +4,7 @@
 ### Departamenti i Inxhinierisë Kompjuterike
 
 <pre> Studentët: Albulena Makolli, Albin Shabani, Donat Aliu dhe Learta Haliti - Grupi 20 </pre>                 
-<pre> Profesori: PhD.c Mërgim Hoti </pre>
+
 
 
  **Literatura ndihmese**
